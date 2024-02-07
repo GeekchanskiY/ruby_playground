@@ -1,4 +1,7 @@
 require_relative "articles"
 
-# include Article
+using Atriclemod
 
+a = Article.new("asd", "wasd")
+
+puts a.title + " " + a.author
